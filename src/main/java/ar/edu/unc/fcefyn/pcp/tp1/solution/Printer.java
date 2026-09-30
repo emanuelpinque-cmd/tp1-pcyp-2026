@@ -27,7 +27,14 @@ public class Printer {
 
 
     }
+    public boolean isAvailable(){
+        return (this.state == PrinterState.AVAILABLE);
+    }
 
-
+    public void runPrinter(){
+       if(this.isAvailable()){
+           this.state=RESERVED;
+       }
+    }
 
 }
