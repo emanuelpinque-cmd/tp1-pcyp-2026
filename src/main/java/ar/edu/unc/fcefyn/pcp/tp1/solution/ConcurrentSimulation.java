@@ -11,9 +11,8 @@ public final class ConcurrentSimulation implements Simulation {
 
     @Override
     public SimulationResult execute(SimulationConfig config) throws InterruptedException {
-        throw new UnsupportedOperationException(
-                "La simulacion concurrente todavia no fue implementada"
-        );
+
+    return null;
     }
 }
 
